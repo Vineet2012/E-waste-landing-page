@@ -1,0 +1,89 @@
+.navBar-wrapper {
+  width: 100%;
+  height: 99vh;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.link-wrapper {
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 14%;
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  transition: 0.2s;
+  font-size: 20px;
+  padding: 0px 24px 0px 0px;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  color: black;
+}
+
+.link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.company {
+  font-size: 44px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  color: DarkGreen;
+  padding: 0px 0px 0px 24px;
+}
+
+.text-wrapper {
+  position: absolute;
+  width: 48%;
+  top: 56%;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  transform: translate(96%);
+  font-weight: 700;
+}
+
+.text-wrapper .head {
+  font-size: 48px;
+}
+
+.text-wrapper .head2 {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-wrapper .text {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid black;
+}

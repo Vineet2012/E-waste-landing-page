@@ -1,0 +1,45 @@
+.motive-wrapper {
+  display: flex;
+  margin: 64px 64px 0px 64px;
+}
+
+.motive-wrapper .motive1 {
+  background-color: #22aa86;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  flex: 1;
+}
+.motive-wrapper .motive2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  flex: 1;
+}
+
+.motive-wrapper .motive1 .head {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.motive-wrapper .motive1 .para {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.motive-wrapper .motive2 .para2 {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.motive-wrapper .motive2 .head2 {
+  font-size: 22px;
+  color: #22aa86;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}

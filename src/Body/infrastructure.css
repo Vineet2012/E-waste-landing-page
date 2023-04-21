@@ -1,0 +1,63 @@
+.infras-recycling-wrapper {
+  display: flex;
+  margin: 64px 64px 0px 64px;
+}
+
+.infras-recycling-wrapper .recycling-wrapper {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.infras-recycling-wrapper .infrs-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.infras-recycling-wrapper .recycling-wrapper .welcome {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.infras-recycling-wrapper .recycling-wrapper .organisation {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.infras-recycling-wrapper .infrs-wrapper .infras {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.infras-recycling-wrapper .recycling-wrapper .button {
+  width: 30%;
+  padding: 16px 24px 16px 24px;
+  background-color: #f0f0f0;
+  font-weight: 100;
+  border: none;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.infras-recycling-wrapper .recycling-wrapper .button:hover {
+  background-color: #22aa86;
+  color: white;
+}
+
+.infras-recycling-wrapper .recycling-wrapper .para1 {
+  margin-bottom: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.infras-recycling-wrapper .infrs-wrapper .para2 {
+  line-height: 30px;
+  letter-spacing: 1px;
+}

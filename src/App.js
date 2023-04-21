@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import InfrastructureCmp from "./Body/infrastructure";
+import MaterialCmp from "./Body/material";
+import MotivesCmp from "./Body/motives";
+import ServicesSolutionCmp from "./Body/servicesSolution";
+import FooterTopCmp from "./Footer/footer";
+import NavbarCmp from "./HomePage/navbar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{ backgroundColor: "#f8f8f8" }}>
+        <NavbarCmp />
+        <MotivesCmp />
+        <InfrastructureCmp />
+      </div>
+      <ServicesSolutionCmp />
+      <MaterialCmp />
+      <FooterTopCmp />
     </div>
   );
 }

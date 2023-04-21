@@ -1,0 +1,27 @@
+.heading-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.heading-wrapper .solution-head {
+  color: #22aa86;
+  margin-left: 12px;
+}
+
+.services-para {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin: 8px 20px 0px 20px;
+}
+
+.services-solution-wrapper {
+  display: flex;
+}
+
+.services-solution-wrapper .b {
+  flex: 1;
+}

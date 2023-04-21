@@ -1,0 +1,14 @@
+.services-wrapper {
+  margin: 64px 40px 0px 64px;
+}
+
+.services-wrapper .head {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.services-wrapper .para {
+  letter-spacing: 1px;
+  line-height: 26px;
+  color: #909090;
+}
